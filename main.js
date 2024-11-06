@@ -14,7 +14,6 @@ Lykke til, og spør meg gjerne om dere står fast eller lurer på noe :) /*/
 
 const userName = "Tom";
 const userAge = 19;
-const goToPage = "/home";
 
 let userIsAdmin = false;
 let userIsLoggedIn = false;
@@ -23,11 +22,11 @@ let userIsBlocked = false;
 if (userIsAdmin == true) {
   userIsLoggedIn = true;
   goToPage;
-  console.log(goToPage);
+  console.log("/Admin");
 } else if (userIsBlocked == true) {
   console.log("User is Blcked");
 } else if (userName && userAge > 18) {
-  console.log(goToPage);
+  console.log("/home");
   userIsLoggedIn = true;
 } else {
   console.log("User is 18 or younger");
