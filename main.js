@@ -13,7 +13,7 @@ Husk å levere inn med link til github repo!
 Lykke til, og spør meg gjerne om dere står fast eller lurer på noe :) /*/
 
 const userName = "Tom";
-const userAge = 19;
+const userAge = 17;
 
 let userIsAdmin = false;
 let userIsLoggedIn = false;
@@ -29,5 +29,5 @@ if (userIsAdmin == true) {
   console.log("/home");
   userIsLoggedIn = true;
 } else {
-  console.log("User is 18 or younger");
+  console.log("User is younger than 18 and is blocked");
 }
