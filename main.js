@@ -24,7 +24,7 @@ if (userIsAdmin == true) {
   goToPage;
   console.log("/Admin");
 } else if (userIsBlocked == true) {
-  console.log("User is Blcked");
+  console.log("User is blocked"); //user is blocked not blcked
 } else if (userName && userAge >= 18) {
   console.log("/home");
   userIsLoggedIn = true;
